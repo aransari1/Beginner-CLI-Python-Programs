@@ -7,13 +7,14 @@
 
 First_Number = eval(input("Enter the first number: "))
 
-Second_Number = eval(input("Enter the second number: "))
-
 print("You have entered first number:",First_Number)
+
+Second_Number = eval(input("Enter the second number: "))
 
 print("You have entered second number:",Second_Number)
 
+
 Sum_of_Numbers = First_Number + Second_Number
 
-print(First_Number,"+",Second_Number,"=",Sum_of_Numbers)
+print("\n",First_Number,"+",Second_Number,"=",Sum_of_Numbers)
 print("Sum of",First_Number,"and",Second_Number,"is",Sum_of_Numbers)
